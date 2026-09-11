@@ -101,8 +101,4 @@ Done. ./orders.json updated.
 
 ## 🧠 AI usage
 
-This project was built with AI assistance for the parallel-fetching pattern, error-handling strategy, and the AI-apology integration itself. See [`AI_LOG.md`](./AI_LOG.md) for the full list of prompts used and what was adapted or written independently.
-
-## 📄 License
-
-MIT
+This project was built with AI assistance for the parallel-fetching error-handling strategy, and the AI-apology integration itself. See [`ai.log`](./ai.log) for the full list of prompts used and what was adapted or written independently.
