@@ -1,9 +1,0 @@
-Tool used: Claude
-
-1. "If one item in a Promise.all batch fails, the whole thing rejects. How do
-   I make sure one bad API call (like an invalid city) doesn't crash the rest
-   of the batch?"
-
-2. "Help me call a free LLM API (Groq) from Node to generate a short,
-   personalized delay apology message, with a fallback template if the AI
-   call fails."
