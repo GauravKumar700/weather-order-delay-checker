@@ -25,7 +25,7 @@ async function geocodeCity(city) {
 
 // Step 2: Fetch current weather for a given lat/lon.
 async function getWeatherByCoords(lat, lon) {
-    const url = `${WEATHER_URL}?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
+    const url = `${WEATHER_URL}?lat=${lat}&lon=${lon}&appid=${API_KEY}`;
     const res = await fetch(url);
 
     if (!res.ok) {
