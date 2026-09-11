@@ -1,0 +1,29 @@
+[
+  {
+    "order_id": "1001",
+    "customer": "Alice Smith",
+    "city": "New York",
+    "status": "Delayed",
+    "update": "Hi Alice, your order to New York is delayed due to cloud cover. We appreciate your patience!"
+  },
+  {
+    "order_id": "1002",
+    "customer": "Bob Jones",
+    "city": "Mumbai",
+    "status": "Delayed",
+    "update": "Hi Bob, your order to Mumbai is delayed due to heavy clouds weather. We appreciate your patience!"
+  },
+  {
+    "order_id": "1003",
+    "customer": "Charlie Green",
+    "city": "London",
+    "status": "Delayed",
+    "update": "Hi Charlie, your order to London is delayed due to clouds. We appreciate your patience!"
+  },
+  {
+    "order_id": "1004",
+    "customer": "InvalidCity123",
+    "city": "InvalidCity123",
+    "status": "Pending"
+  }
+]
