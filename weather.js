@@ -2,7 +2,7 @@ const API_KEY = process.env.OPENWEATHER_API_KEY;
 const GEO_URL = "https://api.openweathermap.org/geo/1.0/direct";
 const WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather";
 
-export const DELAY_CONDITIONS = ["Rain", "Snow", "Extreme"];
+const DELAY_CONDITIONS = ["Rain", "Snow", "Extreme"];
 
 // Step 1: Convert a city name into { lat, lon } using the Geocoding API.
 async function geocodeCity(city) {
@@ -61,6 +61,7 @@ async function fetchWeather(order) {
 export async function fetchAllWeather(orders) {
     return Promise.all(orders.map(fetchWeather));
 }
+
 
 export function isDelayCondition(condition) {
     return DELAY_CONDITIONS.includes(condition);
